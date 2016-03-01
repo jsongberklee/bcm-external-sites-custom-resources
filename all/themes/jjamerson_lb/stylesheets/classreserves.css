@@ -1,0 +1,9 @@
+/* class reserve specific CSS */
+center > .container{margin-bottom:24px;}
+@media (max-width: 767px){
+	.s-lib-side-borders{padding-left: 15px !important;padding-right: 15px !important;}
+	#bcm-lib-header {height: 60px;}
+}
+#block-block-8 .title{font-size: 14px;}
+.region-emergency-bar {background-color: #fff;top:0px;}
+.region-emergency-bar .container{margin-left: 0;}

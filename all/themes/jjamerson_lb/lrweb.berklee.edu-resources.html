@@ -1,0 +1,47 @@
+<!-- Custom JS/CSS for Header/Footer section -->
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" media="all">
+<link rel='stylesheet' href="/sites/all/themes/jjamerson/bcm-jj-all.css">
+<link rel='stylesheet' href="/sites/all/themes/jjamerson_lb/stylesheets/jjamerson_lb_screen.css">
+<link rel='stylesheet' href="/sites/all/themes/jjamerson_lb/stylesheets/classreserves.css">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<style type="text/css" media="screen">
+.region-top-nav>.container{padding-top:0;text-align:center;}
+div#faculty_select_box_container,div#course_select_box_container{float:none;margin-left:0; display:inline-block; width: 49%;}
+</style>
+<script type="text/javascript">
+	var $bcm_container=$("<div />"),$bcm_domain="https://library.berklee.edu",$bcm_header="#bcm-lib-header",$bcm_footer="#bcm-lib-footer";
+
+	jQuery(document).ready(function($){
+		$bcm_container.load($bcm_domain+" section", function(){
+			$bcm_container.html(function(index,html){
+				return html.replace(new RegExp('f="/','g'),'f="'+$bcm_domain+'/');
+			});
+			$bcm_container.html(function(index,html){
+				return html.replace(new RegExp('c="/sites','g'),'c="'+$bcm_domain+'/sites');
+			});
+			var $offscreen=$bcm_container.find("#off-screen"),$topnav=$bcm_container.find(".region-top-nav"),$header=$bcm_container.find(".region-header"),$footer=$bcm_container.find(".region-footer"),$emblock=$bcm_container.find(".region-emergency-bar");
+			$topnav.find("#block-menu-menu-menu-login-menu").remove();
+			$topnav.find("#block-search-api-page-search-site").remove();
+			$offscreen.find("#off-screen-sidebar").append($bcm_container.find('section.region-off-screen-sidebar'));
+			$($bcm_header).append($emblock, $topnav, $header, $offscreen);
+			$($bcm_header+" .region-header .container").css("width","90%");
+			$($bcm_header+" .region-header .container a i").css("color","90%");
+			$($bcm_header+" .region-header #block-block-8 .sub-title a").html("<i class=\"icon fa-book\" aria-hidden=\"true\"></i>Stan Getz Library");
+			$($bcm_footer).append($footer);
+			$($bcm_footer+" .footer-menus .content p").css("text-align","center");
+			//$footer.css("position", "absolute");
+			//$footer.css("bottom", "0");
+			$footer.css("width", "100%");
+			$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log( textStatus );});
+		});
+	});
+</script>
+<!-- END Custom JS/CSS section -->
+
+<!-- Custom Header section -->
+<div id="bcm-lib-header"></div>
+<!-- / Custom Header section -->
+
+<!-- Custom Footer section -->
+<div id="bcm-lib-footer"></div>
+<!-- / Custom Footer section -->

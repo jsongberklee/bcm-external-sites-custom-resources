@@ -1,0 +1,1 @@
+External sites resources for sharing Header and Footer
