@@ -35,3 +35,4 @@ tr.result_table_row td{vertical-align:top;}
 @media (min-width: 768px){
 	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
 }
+.region-emergency-bar {background-color: #fff;top:0px;}

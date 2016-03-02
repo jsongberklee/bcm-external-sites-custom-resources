@@ -1,0 +1,31 @@
+<!-- Custom JS/CSS section -->
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="//library.berklee.edu/sites/all/themes/jjamerson_lb/favicon.ico" type="image/vnd.microsoft.icon">
+				<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson/bcm-jj-all.css">
+				<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson_lb/stylesheets/jjamerson_lb_screen.css">
+				<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson_lb/stylesheets/catalog.berklee.edu.css">
+				<script type="text/javascript">
+					jQuery(document).ready(function($){
+						var $bcm_container=$("<div />"),$bcm_domain="https://library.berklee.edu",$bcm_header="#bcm-lib-header",$bcm_footer="#bcm-lib-footer";
+						$bcm_container.load($bcm_domain+" section", function(){
+						$bcm_container.html(function(index,html){
+								return html.replace(new RegExp('f="/','g'),'f="'+$bcm_domain+'/');
+							});
+							$bcm_container.html(function(index,html){
+								return html.replace(new RegExp('c="/sites','g'),'c="'+$bcm_domain+'/sites');
+							});
+							var $offscreen=$bcm_container.find("#off-screen"),$topnav=$bcm_container.find(".region-top-nav"),$header=$bcm_container.find(".region-header"),$footer=$bcm_container.find(".region-footer"),$emblock=$bcm_container.find(".region-emergency-bar");
+							$topnav.find("#block-menu-menu-login-menu").remove();
+							$topnav.find("#block-search-api-page-search-site").remove();
+							$offscreen.find("#off-screen-sidebar").append($bcm_container.find('section.region-off-screen-sidebar'));
+							$($bcm_header).append($emblock, $topnav, $header, $offscreen);
+							$($bcm_footer).append($footer);
+							$topnav.find("#block-menu-menu-menu-login-menu").empty();
+							$("#bcm-catalog-account").appendTo($topnav.find("#block-menu-menu-menu-login-menu"));
+							$.getScript("https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": cookie" );});
+							$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": jjamerson");});
+						});
+					});
+				</script>
+<!-- / Custom JS/CSS section -->
