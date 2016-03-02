@@ -28,7 +28,9 @@
 			//$footer.css("position", "absolute");
 			//$footer.css("bottom", "0");
 			//$footer.css("width", "100%");
-			$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log( textStatus );});
+			$.getScript("https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": cookie" );});
+			$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": jjamerson");});
+
 		});
 	});
 </script>
@@ -53,6 +55,44 @@
 <!-- Custom Footer section -->
 <div id="bcm-lib-footer"></div>
 <!-- / Custom Footer section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* backup 20160301 *
 <!-- Custom JS/CSS section : ask.library.berklee.edu -->

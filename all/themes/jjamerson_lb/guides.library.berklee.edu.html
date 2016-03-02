@@ -30,6 +30,86 @@
 			//$footer.css("position", "absolute");
 			//$footer.css("bottom", "0");
 			//$footer.css("width", "100%");
+			$.getScript("https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": cookie" );});
+			$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": jjamerson");});
+		});
+	});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73068663-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['ask.library.berklee.edu'] );
+  ga('send', 'pageview');
+
+</script>
+<!-- END Custom JS/CSS section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+backup 20160302
+<!-- Custom JS/CSS section : guides.library.berklee.edu -->
+<link rel="shortcut icon" href="//library.berklee.edu/sites/all/themes/jjamerson_lb/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson/bcm-jj-all.css">
+<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson_lb/stylesheets/jjamerson_lb_screen.css">
+<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson_lb/stylesheets/guides.library.berklee.edu.css">
+<style>#s-lib-footer-public{display:none;}</style>
+<script type="text/javascript">
+	var $bcm_container=$("<div />"),$bcm_domain="https://library.berklee.edu",$bcm_header="#bcm-lib-header",$bcm_footer="#bcm-lib-footer";
+	jQuery(document).ready(function($){
+		$bcm_container.load($bcm_domain+" section", function(){
+			$bcm_container.html(function(index,html){
+				return html.replace(new RegExp('f="/','g'),'f="'+$bcm_domain+'/');
+			});
+			$bcm_container.html(function(index,html){
+				return html.replace(new RegExp('c="/sites','g'),'c="'+$bcm_domain+'/sites');
+			});
+			var $offscreen=$bcm_container.find("#off-screen"),$topnav=$bcm_container.find(".region-top-nav"),$header=$bcm_container.find(".region-header"),$footer=$bcm_container.find(".region-footer"),$emblock=$bcm_container.find(".region-emergency-bar");
+			//$topnav.find("#block-menu-menu-menu-login-menu").remove();
+			$loginMenu = jQuery($topnav.find("#block-menu-menu-menu-login-menu a"));
+			$loginMenu.text("Logout");
+			$loginMenu.attr("href", "https://library.berklee.edu/user/logout");
+			$topnav.find("#block-search-api-page-search-site").remove();
+			$offscreen.find("#off-screen-sidebar").append($bcm_container.find('section.region-off-screen-sidebar'));
+			$("#s-la-public-footer").remove();
+			$($bcm_header).append($emblock, $topnav, $header, $offscreen);
+			$($bcm_header+" .region-header .container").css("width","90%");
+			$($bcm_header+" .region-header .container a i").css("color","90%");
+			$($bcm_footer).append($footer);
+			$($bcm_footer+" .footer-menus .content p").css("text-align","center");
+			//$footer.css("position", "absolute");
+			//$footer.css("bottom", "0");
+			//$footer.css("width", "100%");
 			$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log( textStatus );});
 		});
 	});
@@ -55,6 +135,37 @@
 <!-- Custom Footer section -->
 <div id="bcm-lib-footer"></div>
 <!-- / Custom Footer section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* backup 20160208 *
