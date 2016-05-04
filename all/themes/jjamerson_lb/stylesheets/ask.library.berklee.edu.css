@@ -15,3 +15,8 @@ body > .container{margin-top:16px;}
 	.region-top-nav .block-menu.campus-tools h3{width:38px;}
 }
 .region-emergency-bar {background-color: #fff;top:0px;}
+
+/* ul, ol overwrite */
+body > div.container ul {list-style: initial; padding-left: 20px;}
+body > div.container ol {list-style: decimal; padding-left: 20px;}
+/**/

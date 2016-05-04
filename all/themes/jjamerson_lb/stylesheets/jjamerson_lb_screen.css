@@ -66,11 +66,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* This is a class in h5bp that hides elements but keeps them 
+/* This is a class in h5bp that hides elements but keeps them
    accessible to screen readers, packaged as a mixin: */
 #block-fb-social-custom-like-box,
 #block-fb-social-custom-like-box-admissions {
-  /* To Do: Make the width of the box responsive. The module outputs with as 
+  /* To Do: Make the width of the box responsive. The module outputs with as
      a fixed pixel value using an inline style. Which is lame. */
 }
 @media (min-width: 768px) and (max-width: 979px) {
@@ -562,24 +562,6 @@ div#video-previous-button {
     display: none;
   }
 }
-.block .news-events-style .image.venue-Berk-Recital-Hall .default-image, .block .news-events-style .field-image.venue-Berk-Recital-Hall .default-image, .block .peeps .image.venue-Berk-Recital-Hall .default-image, .block .peeps .field-image.venue-Berk-Recital-Hall .default-image, .block .peeps-style .image.venue-Berk-Recital-Hall .default-image, .block .peeps-style .field-image.venue-Berk-Recital-Hall .default-image, .block .announcements-style .image.venue-Berk-Recital-Hall .default-image, .block .announcements-style .field-image.venue-Berk-Recital-Hall .default-image {
-  background-image: url(../images/event-thumbnails/berk-recital-hall.jpg);
-}
-.block .news-events-style .image.venue-Cafe-939 .default-image, .block .news-events-style .field-image.venue-Cafe-939 .default-image, .block .peeps .image.venue-Cafe-939 .default-image, .block .peeps .field-image.venue-Cafe-939 .default-image, .block .peeps-style .image.venue-Cafe-939 .default-image, .block .peeps-style .field-image.venue-Cafe-939 .default-image, .block .announcements-style .image.venue-Cafe-939 .default-image, .block .announcements-style .field-image.venue-Cafe-939 .default-image {
-  background-image: url(../images/event-thumbnails/cafe-939.jpg);
-}
-.block .news-events-style .image.venue-Berklee-Performance-Center .default-image, .block .news-events-style .field-image.venue-Berklee-Performance-Center .default-image, .block .peeps .image.venue-Berklee-Performance-Center .default-image, .block .peeps .field-image.venue-Berklee-Performance-Center .default-image, .block .peeps-style .image.venue-Berklee-Performance-Center .default-image, .block .peeps-style .field-image.venue-Berklee-Performance-Center .default-image, .block .announcements-style .image.venue-Berklee-Performance-Center .default-image, .block .announcements-style .field-image.venue-Berklee-Performance-Center .default-image {
-  background-image: url(../images/event-thumbnails/bpc.jpg);
-}
-.block .news-events-style .image.venue-David-Friend-Recital-Hall .default-image, .block .news-events-style .field-image.venue-David-Friend-Recital-Hall .default-image, .block .peeps .image.venue-David-Friend-Recital-Hall .default-image, .block .peeps .field-image.venue-David-Friend-Recital-Hall .default-image, .block .peeps-style .image.venue-David-Friend-Recital-Hall .default-image, .block .peeps-style .field-image.venue-David-Friend-Recital-Hall .default-image, .block .announcements-style .image.venue-David-Friend-Recital-Hall .default-image, .block .announcements-style .field-image.venue-David-Friend-Recital-Hall .default-image {
-  background-image: url(../images/event-thumbnails/david-friend.jpg);
-}
-.block .news-events-style .image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .news-events-style .field-image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .peeps .image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .peeps .field-image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .peeps-style .image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .peeps-style .field-image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .announcements-style .image.venue-Oliver-Colvin-Recital-Hall .default-image, .block .announcements-style .field-image.venue-Oliver-Colvin-Recital-Hall .default-image {
-  background-image: url(../images/event-thumbnails/oliver-colvin.jpg);
-}
-.block .news-events-style .image.venue-Berklee-Dining-Hall .default-image, .block .news-events-style .field-image.venue-Berklee-Dining-Hall .default-image, .block .peeps .image.venue-Berklee-Dining-Hall .default-image, .block .peeps .field-image.venue-Berklee-Dining-Hall .default-image, .block .peeps-style .image.venue-Berklee-Dining-Hall .default-image, .block .peeps-style .field-image.venue-Berklee-Dining-Hall .default-image, .block .announcements-style .image.venue-Berklee-Dining-Hall .default-image, .block .announcements-style .field-image.venue-Berklee-Dining-Hall .default-image {
-  background-image: url(../images/event-thumbnails/160.jpg);
-}
 .block .news-events-style h3, .block .peeps h3, .block .peeps-style h3, .block .announcements-style h3 {
   font-size: 15px;
   font-weight: normal;
@@ -963,224 +945,6 @@ div#video-previous-button {
 }
 .next-steps.global a.apply:before, .next-steps.global a.more-info:before, .next-steps.global a.contact:before {
   top: 6px;
-}
-
-.soundbreaking-homepage-block {
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  -moz-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  background: black;
-  background: rgba(255, 255, 255, 0.75);
-  clear: both;
-  height: 49px;
-  line-height: 49px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  height: 300px;
-  padding: 0 5%;
-  background: url("../images/backgrounds/soundbreaking-slide-1.jpg") no-repeat;
-  background-size: cover;
-}
-.soundbreaking-homepage-block .soundbreaking-background {
-  display: none;
-}
-.soundbreaking-homepage-block .soundbreaking-logo {
-  background: url("../images/backgrounds/soundbreaking-logo-white-text.png") no-repeat;
-  background-size: 400px;
-  content: '';
-  display: block;
-  width: 540px;
-  height: 47px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding-left: 540px;
-  margin-top: 2em;
-  position: relative;
-  float: none;
-}
-@media (max-width: 767px) {
-  .soundbreaking-homepage-block {
-    padding: 0 !important;
-    height: auto;
-    border-top: 2px solid #888;
-  }
-}
-.soundbreaking-homepage-block .soundbreaking-logo {
-  float: left;
-  width: 32%;
-  max-width: 385px;
-}
-@media (max-width: 767px) {
-  .soundbreaking-homepage-block .soundbreaking-logo {
-    width: 100%;
-    margin: auto;
-    margin-top: 12px;
-    background-size: 100%;
-    float: none;
-    clear: both;
-    display: block;
-    padding: 11px 0 10px;
-  }
-}
-.soundbreaking-homepage-block .blurb {
-  display: block;
-  width: 100%;
-  clear: both;
-  float: left;
-  margin-top: 1.5em;
-  position: relative;
-  height: 105px;
-}
-@media (max-width: 767px) {
-  .soundbreaking-homepage-block .blurb {
-    display: block;
-    width: 100%;
-    float: none;
-    clear: both;
-    height: 54px;
-    overflow: hidden;
-    margin-top: 0px !important;
-  }
-}
-.soundbreaking-homepage-block .blurb p {
-  width: 66%;
-  max-width: 550px;
-  font-size: 28px;
-  position: absolute;
-  top: 0;
-  font-style: italic;
-  color: #d81118;
-  line-height: normal;
-  opacity: 0;
-  -moz-transition: all 3s ease;
-  -o-transition: all 3s ease;
-  -webkit-transition: all 3s ease;
-  transition: all 3s ease;
-}
-.soundbreaking-homepage-block .blurb p strong {
-  font-style: italic;
-  color: white;
-  font-weight: normal;
-}
-@media (max-width: 767px) {
-  .soundbreaking-homepage-block .blurb p {
-    font-size: 13px;
-    margin: 0;
-    margin-top: 5px;
-    display: block;
-    width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-  }
-}
-.soundbreaking-homepage-block .blurb p.active {
-  opacity: 1;
-}
-.soundbreaking-homepage-block .button {
-  background: rgba(200, 0, 0, 0.75);
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 0;
-  height: 37px;
-  font-size: 18px;
-  line-height: 37px;
-  position: relative;
-  z-index: 1;
-  float: left;
-  padding-left: 2em;
-  padding-right: 2em;
-}
-@media (max-width: 767px) {
-  .soundbreaking-homepage-block .button {
-    clear: both;
-    width: 100%;
-    padding: 0;
-    text-align: center;
-  }
-}
-.soundbreaking-homepage-block .button:after {
-  color: #eee;
-  font-family: FontAwesome;
-  opacity: 1;
-  content: "\f054";
-  display: inline-block;
-  float: right;
-  margin-left: 6px;
-  margin-top: 2px;
-}
-
-.block.soundbreaking-tab {
-  background: black;
-  border-radius: 0 0 3px 3px;
-  border: 1px solid #555;
-  box-shadow: 2px 2px 8px black;
-  height: 40px;
-  opacity: 0.7;
-  position: absolute;
-  right: 0;
-  top: 67px;
-  width: 145px;
-}
-@media (min-width: 980px) and (max-width: 1199px) {
-  .block.soundbreaking-tab {
-    width: 130px;
-  }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  .block.soundbreaking-tab {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .block.soundbreaking-tab {
-    display: none;
-  }
-}
-.block.soundbreaking-tab:hover {
-  opacity: 1;
-}
-.block.soundbreaking-tab h3 {
-  color: transparent;
-  background: url(../images/backgrounds/soundbreaking-logo-130w.png) no-repeat;
-  width: 130px;
-  height: 11px;
-  display: block;
-  margin: 6px auto 5px;
-}
-@media (min-width: 980px) and (max-width: 1199px) {
-  .block.soundbreaking-tab h3 {
-    width: 110px;
-    background-size: 100%;
-    background-position: 50% 0;
-  }
-}
-.block.soundbreaking-tab p {
-  font-size: 10px;
-  color: #ccc;
-  font-style: italic;
-  text-align: center;
-}
-.block.soundbreaking-tab p a {
-  color: #ccc;
-  display: block;
-  margin-top: -23px;
-  padding-top: 23px;
-  position: relative;
-  z-index: 10;
-}
-@media (min-width: 980px) and (max-width: 1199px) {
-  .block.soundbreaking-tab p {
-    font-size: 9px;
-  }
 }
 
 .node-type-hybrid-homepage .region-header .container,
@@ -5063,7 +4827,7 @@ body.page-node-2248436 .region-sidebar-first #block-berklee-site-section-menu {
     margin: 0;
     padding: 0;
     display: block;
-    
+
     &:before {
       content: 'Boston Programs';
       color: #616161;
@@ -5077,7 +4841,7 @@ body.page-node-2248436 .region-sidebar-first #block-berklee-site-section-menu {
         font-size: 16px;
       }
     }
-    
+
   }
   */
 }
@@ -6148,7 +5912,7 @@ body.page-node-2230211.node-type-hybrid-homepagex .row-4 {
   margin-top: 13px;
   /*.media-element-wrapper, img {
     clear: right;
-    width: 250px !important; 
+    width: 250px !important;
     height: auto !important;
     float: right;
     margin-left: 1.5em;
@@ -6190,7 +5954,7 @@ body.page-node-2230211.node-type-hybrid-homepagex .row-4 {
       .field-name-field-photo-credit {
         display: none;
       }
-      
+
       .view-id-bt_content_views.view-display-id-block_4 {
         img {
           width: 40% !important;
@@ -6201,7 +5965,7 @@ body.page-node-2230211.node-type-hybrid-homepagex .row-4 {
         figcaption {
           width: 40%;
           margin-right: 0;
-          margin-left: 5px;   
+          margin-left: 5px;
         }
       }
       */
@@ -8399,12 +8163,12 @@ html.js input.throbbing, html.js input.form-autocomplete {
 }
 
 html.js input.form-autocomplete {
-  background-image: url(/sites/all/themes/jjamerson_lb/images/throbber-inactive.png);
+  background-image: url(//lrweb.berklee.edu/sites/all/themes/jjamerson_lb/images/throbber-inactive.png);
   background-repeat: no-repeat;
 }
 
 html.js input.throbbing {
-  background-image: url(/sites/all/themes/jjamerson_lb/images/throbber-active.gif);
+  background-image: url(//lrweb.berklee.edu/sites/all/themes/jjamerson_lb/images/throbber-active.gif);
 }
 
 body.page-taxonomy:not(.front) #page-content, body.page-taxonomy:not(.front) .region-sidebar-first, body.page-taxonomy:not(.front) .region-sidebar-second .block {
