@@ -31,6 +31,8 @@ tr.result_table_row td{vertical-align:top;}
 	tr.result_table_row td:first-child{padding-left:0;}
 	tr.result_table_row td.results_row_count{padding-left:4px;}
 	table.result_holdings_table{margin-top:0;margin-bottom:0;}
+	.mobileMenu h3, body.page-node .mobileMenu h3{font-size: 18px;}
+	#bcm-catalog-account{margin-top:5px;}
 }
 @media (min-width: 768px){
 	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
