@@ -1,8 +1,7 @@
 /* Libguide site specific CSS */
 @media (max-width: 767px){
-	#bcm-lib-header {
-		height: 60px;
-	}
+	#bcm-lib-header {height: 60px;}
+	#s-lib-public-header,	#s-lib-public-nav, #s-lib-public-main{padding-left: 1%; padding-right: 1%;}
 }
 @media (min-width: 768px){
 	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
