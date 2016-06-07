@@ -1,4 +1,5 @@
 /* ask.library.berklee.edu specific CSS */
+#bcm-lib-header{min-height:158px;}
 .navbar-form .s-la-content-search-query, .navbar-form .s-la-content-search-query{
 	height:34px;
 	margin-top:10px;

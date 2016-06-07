@@ -1,4 +1,5 @@
 /* Libguide site specific CSS */
+#bcm-lib-header{min-height:158px;}
 @media (max-width: 767px){
 	#bcm-lib-header {height: 60px;}
 	#s-lib-public-header,	#s-lib-public-nav, #s-lib-public-main{padding-left: 1%; padding-right: 1%;}

@@ -1,4 +1,5 @@
 /* class reserve specific CSS */
+#bcm-lib-header{min-height:138px;}
 center > .container{margin-bottom:24px;}
 @media (max-width: 767px){
 	.s-lib-side-borders{padding-left: 15px !important;padding-right: 15px !important;}
