@@ -1,5 +1,4 @@
 /* catalog.berklee.edu specific CSS */
-#bcm-lib-header{min-height:138px;}
 #footer{margin-left:0;}
 a.opac-button-header:hover,.opac-button-header{border:none;background-color: transparent;box-shadow:none;}
 /* a.opac-button-header:hover,a.opac-button:hover,.opac-button-header,.opac-button{border:none;background-color: transparent;box-shadow:none;} */
@@ -21,6 +20,58 @@ html body *{
 #content-wrapper{margin-top:12px;}
 tr.result_table_row td{vertical-align:top;}
 .header_middle {margin-bottom: 10px;}
+
+#canvas_main .rdetail_result_nav a:nth-of-type(1) .nav_arrow_fix{font-size: 15px;}
+#search-wrapper .searchbar #search_box_label{color: #666;}
+#search-wrapper .searchbar #search_qtype_label{color: #666;}
+#search-wrapper .searchbar #search_itype_label{color: #666;}
+#search-wrapper .searchbar #search_locg_label{color: #666;}
+#search_box_label #widget_search_box{-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;background-color: #fff;border: 1px solid #ddd;line-height: 12px;height: 26px;align-items: center;}
+#search-wrapper input[type=text]{padding: 3px;font-weight: 400;}
+#canvas_main .rdetail_results a {color: #666;}
+#widget_search_box_dropdown{-moz-transition: none;-webkit-transition: none;-o-transition: color 0 ease-in;transition: none;}
+#search-wrapper #search_box{color: #666;}
+#search-wrapper #qtype{color: #666;}
+#search-wrapper #search_itype_selector{color: #666;}
+#search-wrapper #search_org_selector{color: #666;}
+#home_adv_search_link{
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+    background: #d8d8d8;
+    padding: 0.3em 0.6em;
+    display: inline-block;
+}
+#search-box a:hover{color:red;
+}
+#search-submit-go{margin-left: 10px;}
+
+#rdetail_record_details{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0.5em;border-bottom: 1px dashed #aaa; width:100%;}
+#canvas_main h2.rdetail_contents{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 1.5em;
+    border-bottom: 1px dashed #aaa; width:100%;}
+    
+#canvas_main .rdetail_content_value{border-bottom: 1px dashed #aaa; width:100%;padding-bottom: .5em;padding-top: .5em;}
+#canvas_main td.rdetail_content_type{vertical-align: middle;padding-right: 8px;border-bottom: 1px dashed #aaa;}
+#canvas_main table.rdetail_content{margin-left: 0px;padding-left: :0px;}
+
+#canvas_main h2.rdetail_related_subjects{font-size: 15px;font-weight: bold;    margin-bottom: .5em;}
+#canvas_main td.rdetail_subject_value{padding-left: 25px;}
+#rdetail_copy_counts h2{font-weight: bold;border-bottom: 1px dashed #aaa;width: 100%;color: #BBB; padding-top: 10px;}
+#rdetail_hold_counts h2{font-weight: bold;border-bottom: 1px dashed #aaa;width: 100%;color: #BBB; padding-top: 10px;}
+span#rdetail_hold_counts p {
+    padding-left: 0;
+}
+#rdetail_image_div{padding-bottom: 20px;}
+
+/*change font color*/
+/*border-bottom: 1px solid #d8d8d8;*/
 @media (max-width: 767px){
 	#bcm-lib-header{height:60px;}
 	#search-wrapper select,.results_header_lbl select{margin-top:16px;vertical-align:inherit;}
@@ -36,6 +87,8 @@ tr.result_table_row td{vertical-align:top;}
 	#bcm-catalog-account{margin-top:5px;}
 }
 @media (min-width: 768px){
+	#bcm-lib-header{min-height:138px;}
 	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
+	
 }
 .region-emergency-bar {background-color: #fff;top:0px;}

@@ -1,5 +1,4 @@
 /* ask.library.berklee.edu specific CSS */
-#bcm-lib-header{min-height:158px;}
 .navbar-form .s-la-content-search-query, .navbar-form .s-la-content-search-query{
 	height:34px;
 	margin-top:10px;
@@ -12,6 +11,7 @@ body > .container{margin-top:16px;}
 	#bcm-lib-header {height: 60px;}
 }
 @media (min-width: 768px){
+	#bcm-lib-header{min-height:158px;}
 	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
 	.region-top-nav .block-menu.campus-tools h3{width:38px;}
 }

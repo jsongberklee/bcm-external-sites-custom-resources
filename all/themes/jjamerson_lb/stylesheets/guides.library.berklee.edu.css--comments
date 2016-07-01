@@ -1,0 +1,31 @@
+/* Libguide site specific CSS */
+/*
+body > div.container ul {list-style: initial; padding-left: 20px;}
+body > div.container ol {list-style: decimal; padding-left: 20px;}
+*/
+section.region-off-screen-sidebar .container{padding-left:0; padding-right:0}
+input#s-lg-guide-search{min-height:34px;}
+.region-emergency-bar {background-color: #fff;top:0px;}
+#bodyContent .image{float:left;}
+#bodyContent table tbody td{vertical-align:top;padding-left:3px;}
+#bodyContent table tbody td table tr:nth-child(2) td:nth-child(2){padding-left:10px;padding-right:5px;padding-bottom:5px;}
+#bodyContent #toc{margin-left:10px; margin-bottom:15px;}
+#bodyContent #toc ul li{color:#fff;cursor:default;background-color:#577CBE;border:1px solid transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border-bottom-color:transparent;font-weight:bold;text-align:center;margin-bottom:5px;margin-top:5px;padding:5px 15px;}
+#bodyContent #toc ul li a{color:#fff;}
+#bodyContent #toc ul li:hover{background-color:#70A1EB;}
+#bodyContent h2{font-weight:bold;}
+/*dance*/
+#s-lg-content-18496595{width:50%;}
+#s-lg-content-18496640{float:right;margin-top:-50PX;}
+
+
+@media (max-width: 767px){
+	#bcm-lib-header {height: 60px;}
+	#s-lib-public-header,	#s-lib-public-nav, #s-lib-public-main{padding-left: 1%; padding-right: 1%;}
+}
+@media (min-width: 768px){
+	#bcm-lib-header{min-height:158px;}
+	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
+	.region-top-nav .block-menu.campus-tools h3{width:38px;}
+}
+
