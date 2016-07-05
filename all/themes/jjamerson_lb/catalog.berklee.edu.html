@@ -24,7 +24,11 @@
 							$topnav.find("#block-menu-menu-menu-login-menu").empty();
 							$("#bcm-catalog-account").appendTo($topnav.find("#block-menu-menu-menu-login-menu"));
 							$.getScript("https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": cookie" );});
-							$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){console.log(textStatus+": jjamerson");});
+							$.getScript($bcm_domain+"/sites/all/themes/jjamerson_lb/js/jjamerson_lb.min.js", function(data, textStatus, jqxhr){
+								if(jQuery(window).width() < 768) jQuery('#logo>img').attr('src', '//lrweb.berklee.edu/sites/all/themes/jjamerson_lb/logo-lb-mobile.svg');
+								else jQuery('#logo>img').attr('src', '//lrweb.berklee.edu/sites/all/themes/jjamerson_lb/logo.png');
+								console.log(textStatus+": jjamerson");
+									});
 						});
 					});
 				</script>
