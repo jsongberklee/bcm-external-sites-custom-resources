@@ -1,0 +1,27 @@
+/* / Discovey Layer Editor: Header HTML */
+.staff #topbar{border-bottom: 0;}
+#app-body{padding:0;}
+#masthead{border-radius:0;background-color:#005487;margin-bottom:.5em;padding-top: 8px;min-width:996px;}
+#masthead .row{margin-left:0;margin-right:0;width:100%;}
+#masthead .logo-cnt{margin:0 0 0 0;width:auto;float:left;}
+#masthead-logo img{height: 40px;}
+#masthead .mastsearch-cnt .row:before,#masthead .mastsearch-cnt .row:after{display:none;}
+#masthead nav a{color:white;}
+#masthead nav a:hover{color: #444;}
+#masthead .mastsearch-cnt{text-align:left;width:auto;}
+#masthead #searchform{margin:0 0 0 0;padding:0 0 0 0;}
+#masthead #searchform .form-control{height:28px;margin:0 8px 0 0;}
+#masthead #searchform buttom{margin-bottom:0}
+#masthead #searchform .form-inline .form-control{margin-top: 0px}
+#masthead .cartlist-cnt{width:auto;padding:0 0 0 0;margin:-1px 10px 0 8px;float:right;}
+#masthead .cartlist-cnt .btn{padding:5px 10px;}
+#masthead .row.hidden-xs{text-align:left;margin-top:12px;}
+#masthead .nav-pills{display:inline-block;line-height: 1;border-radius:0;padding: 0;}
+#masthead .nav>li>a{padding:10px 10px;}
+#masthead .nav-pills a:hover{text-decoration:underline;background-color:inherit;border:none;border-radius:0;color:#fff;}
+#masthead .nav-pills a:focus{outline:none;}
+#masthead .nav-pills a.active {background-color:#005487;border:none;border-radius: 0;font-weight:bold;font-size:105%}
+#main-content{margin-right:0;margin-left:0;}
+footer{background-color:#005487;margin-top:15px;}
+
+/* / Discovey Layer Editor: Header HTML */

@@ -33,20 +33,10 @@ input#s-lg-guide-search{min-height:34px;}
 #bodyContent h3{padding-top: 50px;font-size: 1.5em; color: #aaa;}
 #bodyContent .toclevel-1 .toclevel-2{padding-left: 10px;}
 #bodyContent table tbody tr ul:nth-child(1){margin-bottom: -20PX;}
-#canvas_main h2{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0.5em;}
-#rdetail_record_details{
-    color: red;
-}
-#canvas_main h2.rdetail_contents{
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0.5em;}
 @media (max-width: 380px){
 	#bodyContent h2{padding-top: 80px;}
 	#bodyContent h3{padding-top: 80px;}
+	#s-lib-scroll-top i.fa{background:#fff;}
 }
 @media (max-width: 767px){
 	#bcm-lib-header {height: 60px;}

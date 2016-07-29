@@ -1,0 +1,53 @@
+/* / Discovey Layer Editor: Header HTML */
+#app-body{
+padding: 0;
+}
+#topbar .usercontent{
+  padding-top: 4px;
+  background-color: #001C37;
+}
+#masthead{
+border-radius: 0;
+background-color: #001C37;
+margin-bottom: 0.5em;
+}
+#masthead-logo img{
+  width: 120px;
+  max-width: 120px;
+  height: 40px;
+}
+#masthead nav a{
+ color: white;
+}
+#masthead nav a:hover{
+ color: #444;
+}
+#masthead form{
+  margin-bottom: 0;
+}
+#masthead .logo-cnt{
+  padding: .8em;
+  width: 124px;
+}
+#masthead .mastsearch-cnt{
+  width: 600px;
+}
+#masthead .cartlist-cnt{
+  width: 200px;
+}
+#searchform button{
+margin-bottom: 10px;
+}
+@media (min-width: 767px) {
+  #searchform input[name="q"]{
+    width: 26em;
+  }
+  #masthead ul{
+    margin-bottom: .6em;
+    margin-left:7em;
+  }
+}
+footer{
+background-color: #001C37;
+}
+/* / Discovey Layer Editor: Header HTML */
