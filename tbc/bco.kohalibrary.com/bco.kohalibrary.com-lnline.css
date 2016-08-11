@@ -1,55 +1,237 @@
 /* Discovey Layer Editor: Inline styles */
-.staff #topbar{border-bottom: 0;}
-#app-body{padding:0;}
-#masthead{border-radius:0;background-color:#005487;margin-bottom:.5em;padding-top: 8px;}
-#masthead .row{margin-left:0;margin-right:0;width:100%;}
-#masthead .logo-cnt{margin:0 0 0 0;width:auto;float:left;}
-#masthead-logo img{height: 40px;}
-#masthead .mastsearch-cnt .row:before,#masthead .mastsearch-cnt .row:after{display:none;}
-#masthead nav a{color:white;}
-#masthead nav a:hover{color: #444;}
-.nav>li>a:focus{background-color:#005487;}
-#masthead .mastsearch-cnt{text-align:left;width:auto;}
-#masthead #searchform{margin:0 0 0 0;padding:0 0 0 0;}
-#masthead #searchform .form-control{height:28px;margin:0 8px 0 0; padding:0px 12px;}
-#masthead #searchform buttom{margin-bottom:0}
-#masthead #searchform .form-inline .form-control{margin-top: 0px}
-#masthead .cartlist-cnt{width:auto;padding:0 0 0 0;margin:-1px 10px 0 8px;float:right;}
-#masthead .cartlist-cnt .btn{padding:5px 10px;}
-#masthead .row.hidden-xs{text-align:left;margin-top:12px;}
-#masthead .nav-pills{display:inline-block;line-height: 1;border-radius:0;padding: 0;}
-#masthead .nav>li>a{padding:10px 10px; text-transform:uppercase;}
-#masthead .nav-pills a:hover{text-decoration:underline;background-color:inherit;border:none;border-radius:0;color:#fff;}
-#masthead .nav-pills a:focus{outline:none;background-color:none;}
-#masthead .nav-pills a.active {background-color:#005487;border:none;border-radius: 0;font-weight:bold;font-size:105%}
-#main-content{margin-right:0;margin-left:0;}
-footer{background-color:#005487;margin-top:15px;}
-div.footer{margin:auto;text-align: center;color: #eee;padding:50px 10px;}
-div.footer a{color: #eee}
-#tbc-library-front-contents-wrapper{}
-.tbc-library-front-contents{margin-top:10px;margin-left:auto;margin-right:auto;width:auto;text-align:center;font-size:112%}
-.tbc-library-front-contents .col{display:inline-block;vertical-align:top;margin-right:10px;text-align:left;}
-.tbc-library-front-contents .col-1{}
-.tbc-library-front-contents .col-2{}
-.tbc-library-front-contents .col-3{}
-.tbc-library-front-contents .col .row-jsong{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ccc;}
-.tbc-library-front-contents .col .row-jsong:last-child{border-bottom:none;}
-.tbc-library-front-contents .col-1 .row-jsong:last-child{text-align:center}
-@media (max-width: 767px){
-#masthead .logo-cnt{margin:0 0 0 0;width:100%;float:none;text-align:left;}
-#masthead .mastsearch-cnt{margin-top:12px;}
-#masthead #searchform input{width:100%}
-#masthead #searchform .btn-group{width:50%}
-#masthead #searchform button{width:20%}
-#masthead #searchform .btn-group, #masthead #searchform button{margin-top:12px}
-#masthead #searchform{}
+#masthead,
+.nav>li>a:focus {
+    background-color: #005487
 }
-@media (max-width: 480px){
-#masthead .nav-pills{margin-top:14px;}
-#masthead #searchform select,#masthead #searchform .btn-group{width: 100%;}
-#masthead #searchform button{width:30%}
-#masthead-logo img{height: 38px;}
-.tbc-library-front-contents .col, .tbc-library-front-contents .col-1 img{width:100%}
+
+.staff #topbar {
+    border-bottom: 0
+}
+
+#app-body {
+    padding: 0
+}
+
+#masthead {
+    border-radius: 0;
+    margin-bottom: .5em;
+    padding-top: 8px
+}
+
+#masthead .row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%
+}
+
+#masthead .logo-cnt {
+    margin: 0;
+    width: auto;
+    float: left
+}
+
+#masthead-logo img {
+    height: 40px
+}
+
+#masthead .mastsearch-cnt .row:after,
+#masthead .mastsearch-cnt .row:before {
+    display: none
+}
+
+#masthead nav a {
+    color: #fff
+}
+
+#masthead nav a:hover {
+    color: #444
+}
+
+#masthead .mastsearch-cnt {
+    text-align: left;
+    width: auto
+}
+
+#masthead #searchform {
+    margin: 0;
+    padding: 0
+}
+
+#masthead #searchform .form-control {
+    height: 28px;
+    margin: 0 8px 0 0;
+    padding: 0 12px
+}
+
+#masthead #searchform buttom {
+    margin-bottom: 0
+}
+
+#masthead #searchform .form-inline .form-control {
+    margin-top: 0
+}
+
+#masthead .cartlist-cnt {
+    width: auto;
+    padding: 0;
+    margin: -1px 10px 0 8px;
+    float: right
+}
+
+#masthead .cartlist-cnt .btn {
+    padding: 5px 10px
+}
+
+#masthead .row.hidden-xs {
+    text-align: left;
+    margin-top: 12px
+}
+
+#masthead .nav-pills {
+    display: inline-block;
+    line-height: 1;
+    border-radius: 0;
+    padding: 0
+}
+
+#masthead .nav>li>a {
+    padding: 10px;
+    text-transform: uppercase
+}
+
+#masthead .nav-pills a:hover {
+    text-decoration: underline;
+    background-color: inherit;
+    border: none;
+    border-radius: 0;
+    color: #fff
+}
+
+div.footer,
+div.footer a {
+    color: #eee
+}
+
+#masthead .nav-pills a:focus {
+    outline: 0;
+    background-color: none
+}
+
+#masthead .nav-pills a.active {
+    background-color: #005487;
+    border: none;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 105%
+}
+
+#main-content {
+    margin-right: 0;
+    margin-left: 0
+}
+
+footer {
+    background-color: #005487;
+    margin-top: 15px
+}
+
+div.footer {
+    margin: auto;
+    text-align: center;
+    padding: 50px 10px
+}
+
+.tbc-library-front-contents {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+    font-size: 112%
+}
+
+.tbc-library-front-contents .col {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    text-align: left
+}
+
+.tbc-library-front-contents .col .row-jsong {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc
+}
+
+.tbc-library-front-contents .col .row-jsong:last-child {
+    border-bottom: none
+}
+
+.tbc-library-front-contents .col-1 .row-jsong:last-child {
+    text-align: center
+}
+
+@media (max-width:767px) {
+    #masthead .logo-cnt {
+        margin: 0;
+        width: 100%;
+        float: none;
+        text-align: left
+    }
+    #masthead #searchform .btn-group,
+    #masthead #searchform button,
+    #masthead .mastsearch-cnt {
+        margin-top: 12px
+    }
+    #masthead #searchform input {
+        width: 100%
+    }
+    #masthead #searchform .btn-group {
+        width: 50%
+    }
+    #masthead #searchform button {
+        width: 20%
+    }
+}
+
+@media (max-width:480px) {
+    #masthead .nav-pills {
+        margin-top: 14px
+    }
+    #masthead #searchform .btn-group,
+    #masthead #searchform select {
+        width: 100%
+    }
+    #masthead #searchform button {
+        width: 30%
+    }
+    #masthead-logo img {
+        height: 38px
+    }
+    .tbc-library-front-contents .col,
+    .tbc-library-front-contents .col-1 img {
+        width: 100%
+    }
+}
+
+.dropdown-menu>li>a {
+    color: #333 !important
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: none;
+}
+
+#user-menu .nav-pills>li>a:hover {
+    border-radius: 0;
+}
+
+#user-menu .nav-pills>li>a:focus,
+#user-menu .nav-pills>li.active>a {
+    background-color: #4c5960;
+    border-radius: 0;
 }
 /* / Discovey Layer Editor: Inline styles */
 
@@ -57,4 +239,5 @@ div.footer a{color: #eee}
 
 
 /* Mimified by https://cssminifier.com/ */
-#masthead,.nav>li>a:focus{background-color:#005487}.staff #topbar{border-bottom:0}#app-body{padding:0}#masthead{border-radius:0;margin-bottom:.5em;padding-top:8px}#masthead .row{margin-left:0;margin-right:0;width:100%}#masthead .logo-cnt{margin:0;width:auto;float:left}#masthead-logo img{height:40px}#masthead .mastsearch-cnt .row:after,#masthead .mastsearch-cnt .row:before{display:none}#masthead nav a{color:#fff}#masthead nav a:hover{color:#444}#masthead .mastsearch-cnt{text-align:left;width:auto}#masthead #searchform{margin:0;padding:0}#masthead #searchform .form-control{height:28px;margin:0 8px 0 0;padding:0 12px}#masthead #searchform buttom{margin-bottom:0}#masthead #searchform .form-inline .form-control{margin-top:0}#masthead .cartlist-cnt{width:auto;padding:0;margin:-1px 10px 0 8px;float:right}#masthead .cartlist-cnt .btn{padding:5px 10px}#masthead .row.hidden-xs{text-align:left;margin-top:12px}#masthead .nav-pills{display:inline-block;line-height:1;border-radius:0;padding:0}#masthead .nav>li>a{padding:10px;text-transform:uppercase}#masthead .nav-pills a:hover{text-decoration:underline;background-color:inherit;border:none;border-radius:0;color:#fff}div.footer,div.footer a{color:#eee}#masthead .nav-pills a:focus{outline:0;background-color:none}#masthead .nav-pills a.active{background-color:#005487;border:none;border-radius:0;font-weight:700;font-size:105%}#main-content{margin-right:0;margin-left:0}footer{background-color:#005487;margin-top:15px}div.footer{margin:auto;text-align:center;padding:50px 10px}.tbc-library-front-contents{margin-top:10px;margin-left:auto;margin-right:auto;width:auto;text-align:center;font-size:112%}.tbc-library-front-contents .col{display:inline-block;vertical-align:top;margin-right:10px;text-align:left}.tbc-library-front-contents .col .row-jsong{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ccc}.tbc-library-front-contents .col .row-jsong:last-child{border-bottom:none}.tbc-library-front-contents .col-1 .row-jsong:last-child{text-align:center}@media (max-width:767px){#masthead .logo-cnt{margin:0;width:100%;float:none;text-align:left}#masthead #searchform .btn-group,#masthead #searchform button,#masthead .mastsearch-cnt{margin-top:12px}#masthead #searchform input{width:100%}#masthead #searchform .btn-group{width:50%}#masthead #searchform button{width:20%}}@media (max-width:480px){#masthead .nav-pills{margin-top:14px}#masthead #searchform .btn-group,#masthead #searchform select{width:100%}#masthead #searchform button{width:30%}#masthead-logo img{height:38px}.tbc-library-front-contents .col,.tbc-library-front-contents .col-1 img{width:100%}}
+
+#masthead,.nav>li>a:focus{background-color:#005487}.staff #topbar{border-bottom:0}#app-body{padding:0}#masthead{border-radius:0;margin-bottom:.5em;padding-top:8px}#masthead .row{margin-left:0;margin-right:0;width:100%}#masthead .logo-cnt{margin:0;width:auto;float:left}#masthead-logo img{height:40px}#masthead .mastsearch-cnt .row:after,#masthead .mastsearch-cnt .row:before{display:none}#masthead nav a{color:#fff}#masthead nav a:hover{color:#444}#masthead .mastsearch-cnt{text-align:left;width:auto}#masthead #searchform{margin:0;padding:0}#masthead #searchform .form-control{height:28px;margin:0 8px 0 0;padding:0 12px}#masthead #searchform buttom{margin-bottom:0}#masthead #searchform .form-inline .form-control{margin-top:0}#masthead .cartlist-cnt{width:auto;padding:0;margin:-1px 10px 0 8px;float:right}#masthead .cartlist-cnt .btn{padding:5px 10px}#masthead .row.hidden-xs{text-align:left;margin-top:12px}#masthead .nav-pills{display:inline-block;line-height:1;border-radius:0;padding:0}#masthead .nav>li>a{padding:10px;text-transform:uppercase}#masthead .nav-pills a:hover{text-decoration:underline;background-color:inherit;border:none;border-radius:0;color:#fff}div.footer,div.footer a{color:#eee}#masthead .nav-pills a:focus{outline:0;background-color:none}#masthead .nav-pills a.active{background-color:#005487;border:none;border-radius:0;font-weight:700;font-size:105%}#main-content{margin-right:0;margin-left:0}footer{background-color:#005487;margin-top:15px}div.footer{margin:auto;text-align:center;padding:50px 10px}.tbc-library-front-contents{margin-top:10px;margin-left:auto;margin-right:auto;width:auto;text-align:center;font-size:112%}.tbc-library-front-contents .col{display:inline-block;vertical-align:top;margin-right:10px;text-align:left}.tbc-library-front-contents .col .row-jsong{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ccc}.tbc-library-front-contents .col .row-jsong:last-child{border-bottom:none}.tbc-library-front-contents .col-1 .row-jsong:last-child{text-align:center}@media (max-width:767px){#masthead .logo-cnt{margin:0;width:100%;float:none;text-align:left}#masthead #searchform .btn-group,#masthead #searchform button,#masthead .mastsearch-cnt{margin-top:12px}#masthead #searchform input{width:100%}#masthead #searchform .btn-group{width:50%}#masthead #searchform button{width:20%}}@media (max-width:480px){#masthead .nav-pills{margin-top:14px}#masthead #searchform .btn-group,#masthead #searchform select{width:100%}#masthead #searchform button{width:30%}#masthead-logo img{height:38px}.tbc-library-front-contents .col,.tbc-library-front-contents .col-1 img{width:100%}}.dropdown-menu>li>a{color:#333 !important}.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:none;}#user-menu .nav-pills>li>a:hover{border-radius:0;}#user-menu .nav-pills>li>a:focus,#user-menu .nav-pills>li.active>a{background-color:#4c5960;border-radius:0;}
