@@ -19,7 +19,7 @@ html body *{
 */
 #content-wrapper{margin-top:12px;}
 tr.result_table_row td{vertical-align:top;}
-.header_middle{margin-bottom: 15px;}
+.header_middle{margin-bottom: 15px;color:#666;}
 #search-wrapper{}
 #canvas_main .rdetail_result_nav a:nth-of-type(1) .nav_arrow_fix{font-size: 15px;}
 #search-wrapper .searchbar #search_box_label{color: #666;}
@@ -81,9 +81,29 @@ span#rdetail_hold_counts p {padding-left: 0;}
 #main-content .advanced_div{margin-left: 20%;
     margin-right: 20%;}*/
 #adv_search_filters {position: inherit;}
-
-
-
+#dash_wrapper #dash_user_message_button_container{vertical-align: baseline;}
+#dashboard{padding:3px 8px 0px 12px;}
+#dash_wrapper #dashboard *{
+    vertical-align: baseline;
+}
+#dash_wrapper div {
+    text-align: center;
+}
+#result_table tr.result_table_row{
+    background: transparent;
+    border-top: 1em solid #25353c;
+}
+.result_table_title_cell table.result_holdings_table thead tr th {		
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.result_table_title_cell table.result_holdings_table thead tr th:nth-child(1){		
+	padding-left: 1em;
+}
+@media (max-width: 1003px){
+	#block-weekhours-weekhours-current .content{display: none;}
+	
+}
 @media (max-width: 767px){
 	#bcm-lib-header{height:60px;}
 	#search-wrapper select,.results_header_lbl select{margin-top:16px;vertical-align:inherit;}
@@ -97,10 +117,32 @@ span#rdetail_hold_counts p {padding-left: 0;}
 	table.result_holdings_table{margin-top:0;margin-bottom:0;}
 	.mobileMenu h3, body.page-node .mobileMenu h3{font-size: 18px;}
 	#bcm-catalog-account{margin-top:5px;}
+	#dash_user_message_button_container a{margin-top:0px;}
+	#block-menu-menu-menu-login-menu .float-right{float:none;display: inline-block;}
+	#dash_wrapper .opac-button{color:white;display: inline-table;margin: 0.3em;padding: 0.3em 0.6em;border-radius: 5px;}
+	#dash_wrapper div {text-align: inherit;}
+	#dash_user{color: rgb(255, 255, 255);}
+	#dashboard span.dash-align a{display:inline;}
+	#dashboard span{padding-left: 2px;}
+	#dash_wrapper #dashboard a:hover{    background: transparent;}
+	#dash_wrapper div *{vertical-align: baseline;}
+	.mobileMenu a{color:white;}
 }
 @media (min-width: 768px){
 	#bcm-lib-header{min-height:138px;}
 	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
-	
 }
+
+@media only screen and (max-width: 600px){
+	#home_adv_search_link{margin: 8px 5px;padding: 5px 8px;}
+	#mobile_acct_search_links{padding-left: 10px;}
+	#acct_select form{padding-top: 4px;}
+	#dashboard {display: inline-table;}
+	#dash_wrapper #dashboard{background: #7b8b96;padding:3px 12px 2px 9px;}
+	#dashboard span{display: inherit;}
+}
+@media only screen and (max-width: 360px){
+	#mobile_acct_search_links{padding-left: 10px;padding-bottom:6px;}
+}
+
 .region-emergency-bar {background-color: #fff;top:0px;}
