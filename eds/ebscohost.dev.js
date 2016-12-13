@@ -1,10 +1,3 @@
-<!-- Custom JS/CSS section : ebscohost.com -->
-<link rel="shortcut icon" href="//library.berklee.edu/sites/all/themes/jjamerson_lb/favicon.ico" type="image/vnd.microsoft.icon">
-<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson/bcm-jj-all.css">
-<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson_lb/stylesheets/jjamerson_lb_screen.css">
-<link rel='stylesheet' href="https://lrweb.berklee.edu/sites/all/themes/jjamerson_lb/stylesheets/guides.library.berklee.edu.css">
-<style>#toolbarControl .presentation{display:none;}#toolbarControl{background-image:none;border-bottom:none;}#toolbarControl .nav-item{padding:8px 1px 8px;}.region-top-nav{padding:0 0 0 0;}</style>
-<script type="text/javascript">
 	var $bcm_container=jQuery('<div />'),$bcm_domain="https://library.berklee.edu",$bcm_header="#toolbarControl",$bcm_footer="#footerControl";
 	jQuery(document).ready(function($){
 		$bcm_container.load($bcm_domain+" section", function(){
@@ -29,18 +22,28 @@
 			});
 		});
 	});
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-73068663-1', 'auto', {'allowLinker': true});
-  ga('require', 'linker');
-  ga('linker:autoLink', ['eds.a.ebscohost.com'] );
-  ga('send', 'pageview');
-</script>
-<!-- END Custom JS/CSS section -->
+
+
+// google analytics
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-73068663-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['eds.a.ebscohost.com'] );
+ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+
 
 
 
