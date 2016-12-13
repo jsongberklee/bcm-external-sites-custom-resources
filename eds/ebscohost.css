@@ -1,0 +1,10 @@
+/* ebsco site specific CSS */
+#LanguageMenubarItems a.submenu-link{color:#333}
+#LanguageMenubarItems a.submenu-link.selected{font-weight:bold}
+.bg-p1, .border-p2{background-color:rgba(30, 30, 30, 0.8) !important;}
+#toobarControl{height:38px}
+div.customerLogo,
+#findFieldOuter .find-field-inner>a{display:none;}
+.toolbar-navigation .link,
+.region-top-nav a {font-weight: normal;color: white;font-size: 14px;line-height: 1.4em;text-decoration: none;margin-right: 1em;}
+#bcm-header-wrapper{height:130px; font-size: 40px; color: #fff; padding-top: 90px; text-align: right; width:100%; background-color: #f0f0f0}
