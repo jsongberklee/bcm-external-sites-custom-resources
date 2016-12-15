@@ -29,11 +29,17 @@ input#s-lg-guide-search{min-height:34px;}
 #s-lg-guide-tabs .s-lg-boxnav{margin-left: 0px;}
 #bodyContent table tbody td:nth-child(2){padding-left:15px;}
 #bodyContent .toclevel-1{padding: 6PX 10PX;;border-top: 1px dashed #aaa; width:100%}
-#bodyContent h2{padding-top: 50px;} 
+#bodyContent h2{padding-top: 50px;}
 #bodyContent h3{padding-top: 50px;font-size: 1.5em; color: #aaa;}
 #bodyContent .toclevel-1 .toclevel-2{padding-left: 10px;}
 #bodyContent table tbody tr ul:nth-child(1){margin-bottom: -20PX;}
 input#s-lg-az-search{height: 34px;}
+#block-weekhours-weekhours td i.fa-circle, #block-views-7e6636293d157944927a06d5285fffdd td i.fa-circle{
+	position: absolute;
+	margin-right: .5em;
+	margin-left: -20px;
+  margin-top: 2px;
+}
 @media (max-width: 380px){
 	#bodyContent h2{padding-top: 80px;}
 	#bodyContent h3{padding-top: 80px;}

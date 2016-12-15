@@ -10,3 +10,9 @@ center > .container{margin-bottom:24px;}
 .region-emergency-bar .container{margin-left: 0;}
 #block-block-8 .sub-title{bottom:4px;}
 .region-emergency-bar {background-color: #fff;top:0px;}
+#block-weekhours-weekhours td i.fa-circle, #block-views-7e6636293d157944927a06d5285fffdd td i.fa-circle{
+	position: absolute;
+	margin-right: .5em;
+	margin-left: -20px;
+  margin-top: 2px;
+}

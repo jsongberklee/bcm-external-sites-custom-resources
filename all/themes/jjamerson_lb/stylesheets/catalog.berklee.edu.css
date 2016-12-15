@@ -56,7 +56,7 @@ tr.result_table_row td{vertical-align:top;}
     font-weight: bold;
     margin-top: 1.5em;
     border-bottom: 1px dashed #aaa; width:100%;color: #BBB;}
-    
+
 #canvas_main .rdetail_content_value{border-bottom: 1px dashed #aaa; width:100%;padding-bottom: .5em;padding-top: .5em;}
 #canvas_main td.rdetail_content_type{vertical-align: middle;padding-right: 8px;border-bottom: 1px dashed #aaa;}
 #canvas_main table.rdetail_content{margin-left: 0px;padding-left: :0px;}
@@ -93,16 +93,16 @@ span#rdetail_hold_counts p {padding-left: 0;}
     background: transparent;
     border-top: 1em solid #25353c;
 }
-.result_table_title_cell table.result_holdings_table thead tr th {		
+.result_table_title_cell table.result_holdings_table thead tr th {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-.result_table_title_cell table.result_holdings_table thead tr th:nth-child(1){		
+.result_table_title_cell table.result_holdings_table thead tr th:nth-child(1){
 	padding-left: 1em;
 }
 @media (max-width: 1003px){
 	#block-weekhours-weekhours-current .content{display: none;}
-	
+
 }
 @media (max-width: 767px){
 	#bcm-lib-header{height:60px;}
@@ -146,3 +146,10 @@ span#rdetail_hold_counts p {padding-left: 0;}
 }
 
 .region-emergency-bar {background-color: #fff;top:0px;}
+
+#block-weekhours-weekhours td i.fa-circle, #block-views-7e6636293d157944927a06d5285fffdd td i.fa-circle{
+	position: absolute;
+	margin-right: .5em;
+	margin-left: -20px;
+  margin-top: 2px;
+}
