@@ -1,0 +1,95 @@
+/* minify by http://www.cleancss.com/css-minify/ */
+/* ask.library.berklee.edu specific CSS */
+.navbar-form .s-la-content-search-query, .navbar-form .s-la-content-search-query{
+	height:34px;
+	margin-top:10px;
+}
+.s-la-navbrowse{
+	margin-top:18px;
+}
+body > .container{margin-top:16px;}
+
+#s-la-content-search-20997 .s-la-searchform-buttoncol .s-la-searchform-button{
+    margin-top: 10px;
+}
+#s-la-page-title-bar .navbar-header .navbar-text{
+	margin-top: 26px;
+	margin-left: 18px;
+}
+#s-la-page-title-bar label.navbar-text{
+	margin-top: 26px;
+
+}
+
+#s-la-content-iconitem-20991{
+	margin-bottom:-5px;
+
+}
+#s-la-content-search-20997 .tt-dropdown-menu{
+	margin-top: -10px;
+}
+
+#s-la-box-22102 .label a{padding-left: 1em;}
+#s-la-content-faqlist-20993 span.label{padding-left: 0.6em;}
+#s-la-content-faqlist-20994 span.label{padding-left: 0.6em;}
+#s-la-content-faqlist-36164 span.label{padding-left: 0.6em;}
+#s-la-content-faqlist-20993 ul.list-inline{padding-left: 0px;}
+#s-la-content-faqlist-20994 ul.list-inline{padding-left: 0px;}
+#s-la-content-faqlist-36164 ul.list-inline{padding-left: 0px;}
+#s-srch-results-0 ul.list-inline{padding-left: 0px;}
+#s-srch-results-0 .s-srch-result .label-default{padding-left: 0.6em;color: rgb(51, 51, 51);background-color: #eee;}
+#s-la-box-22104 .s-la-box-title{padding-left: 15px;}
+#s-la-box-22104 .s-la-box-title h2{color: #777;}
+#s-la-box-22096 .s-la-box-title h2{color: #777;}
+#s-la-box-22097 .s-la-box-title h2{color: #777;}
+/*question area unsure*/
+#s-la-askform-section-3298 legend{color: #777;border-bottom-style: dotted;padding: 10px;border-bottom-width: 1px;border-color: #ccc;background-image: linear-gradient(to bottom, rgb(245,245,245) 0%, rgb(235,235,235) 100%);}
+#s-la-askform-section-3298 .form-group{margin-top: 10px; margin-bottom: 0px;margin-left: 5px;}
+#s-la-askform-section-3298 {border-style: solid;border-width: 1px;border-color: seashell;}
+#s-la-askform-section-3297 {border-style: solid;border-width: 1px;border-color: seashell;}
+#s-la-askform-section-3297 legend{color: #777;/* margin: 10px; */border-bottom-style: dotted;padding: 10px;border-bottom-width: 1px;/* border-style: solid; */border-color: #ccc;/* background: beige; */background-image: linear-gradient(to bottom, rgb(245,245,245) 0%, rgb(235,235,235) 100%);}
+#s-la-askform-section-3297 .form-group{margin-top: 10px; margin-bottom: 0px;margin-left: 5px;}
+#s-la-askform-reqnote_31560{margin-top: 10px;}
+
+@media (max-width: 767px){
+	#bcm-lib-header {height: 60px;}
+	#s-la-page-title-bar .navbar-header .navbar-text{margin-top: 15px;}
+	#s-la-browsebar-collapse ul.s-la-navbrowse{margin-bottom: 22px;}
+	#s-la-content-search-20997 .form-group{margin-left: 5px;}
+
+}
+@media (min-width: 768px){/*max-width: 1108px*/
+	#bcm-lib-header{min-height:158px;}
+	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
+	.region-top-nav .block-menu.campus-tools h3{width:38px;}
+	#s-la-browsebar-collapse ul.s-la-navbrowse{margin-bottom: 15px; margin-top: 0px;margin-left: 0px;}
+	.s-la-navbrowse .navbar-text{margin-left: 0px;}
+}
+@media (min-width: 1200px){
+	#bcm-lib-header{min-height:158px; background-color: #f0f0f0;}
+	.region-top-nav .block-menu.campus-tools .content nav{left:-242px;}
+	.region-top-nav .block-menu.campus-tools h3{width:38px;}
+	#s-la-browsebar-collapse ul.s-la-navbrowse{margin-top: 18px; margin-bottom: 15px;}
+	#s-la-page-title-bar .navbar-header{margin-left: 5%;}
+	#s-la-page-title-bar label.navbar-text{margin-left: 5%;}
+}
+
+.region-emergency-bar {background-color: #fff;top:0px;}
+
+/* ul, ol overwrite */
+body > div.container ul {list-style: initial; padding-left: 20px;}
+body > div.container ol {list-style: decimal; padding-left: 20px;}
+/**/
+
+#block-weekhours-weekhours td i.fa-circle, #block-views-7e6636293d157944927a06d5285fffdd td i.fa-circle{
+	position: absolute;
+	margin-right: .5em;
+	margin-left: -20px;
+  margin-top: 2px;
+}
+#block-weekhours-weekhours .oneweekhours span.title{
+	display:none;
+}
+#feedback_simple a.side-tab-feedback_simple i.fa-commenting{
+	color:#fff;
+}

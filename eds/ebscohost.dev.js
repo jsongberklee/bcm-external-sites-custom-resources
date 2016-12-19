@@ -1,4 +1,19 @@
-(function($){
+// minification process by https://jscompress.com/
+
+var track_call = setInterval(function () {
+
+  try {
+    jQuery().jquery;
+    clearInterval(track_call);
+    edsBcm();
+  }
+  catch (err) {
+	  console.log('wait to load jQuery.');
+  }
+
+}, 10);
+
+function edsBcm(){
 
 	var bcm_domain="https://library.berklee.edu";
 
@@ -29,23 +44,24 @@
 		var $topnav=$bcm_temp_container.find(".region-top-nav");
 		var $header=$bcm_temp_container.find(".region-header");
 		var $footer=$bcm_temp_container.find(".region-footer");
+		var $feed_back_simple=$bcm_temp_container.find(".region-stripes #feedback_simple");
 		var $emblock=$bcm_temp_container.find(".region-emergency-bar");
 
 		$topnav.find("#block-search-api-page-search-site").remove();
 
 		//$header.find('.sub-title a').html("<i class=\"icon fa-search\" aria-hidden=\"true\"></i>[SITE NAME ?] SEARCH"); // to change site title
-		$bcm_header_wrapper.before($emblock, $topnav, $header).remove();
+		$bcm_header_wrapper.before($emblock, $topnav, $header, $feed_back_simple).remove();
 		$topnav.find('.container').html($toolbar_control);
 		$footer.find('.footer-block ul.bar').append($mobile_site);
 		$footer_control.replaceWith($footer);
 
 		$.getScript("https://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js", function(data, textStatus, jqxhr){
-			console.log(textStatus+": cookie loaded" );
+			//console.log(textStatus+": cookie loaded" );
 		}); // end getScript
 
 	}); // end onLoad
 
-})(jQuery); // end wrapper function
+}// end edsBcm()
 
 // google analytics
 /*
